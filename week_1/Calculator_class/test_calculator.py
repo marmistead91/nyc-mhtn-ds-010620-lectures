@@ -5,8 +5,9 @@ Created on Thu Sep  5 15:35:22 2019
 
 @author: swilson5
 """
-import pytest
 from descriptive import Calculator
+import pytest
+
 
 
 def test_mean():

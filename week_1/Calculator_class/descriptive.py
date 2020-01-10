@@ -1,29 +1,31 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Sep  4 14:25:52 2019
-
-@author: swilson5
-"""
 import math
-
+from math import sqrt
 
 class Calculator:
     data = []
-    
     def __init__(self, data):
-        self.data = data
+        self.data = data 
         self.length = len(data)
-        self.mean = sum(data)/len(data)
+        self.mean = self.calc_mean()
         self.median = self.med()
         self.variance = self.vari()
         self.stand_dev = self.calc_std()
     
     def add_data(self, added_data):
-        self.data.append(added_data)
+        if type(added_data) == list:
+            self.data.extend(added_data)
+        else: 
+            self.data.append(added_data)
+        self.__init__(self.data)
+
         
     def remove_data(self, removed_data):
-        self.data.remove(removed_data)
+        if type(removed_data) == list:
+            for i in removed_data:
+                self.data.remove(i)
+        else:
+            self.data.remove(removed_data)
+        self.__init__(self.data)
     
     def calc_mean(self):
         avg = sum(self.data)/self.length
@@ -56,5 +58,3 @@ class Calculator:
         stand_devi = sqrt(vari)
         self.stand_dev = stand_devi
         return stand_devi
-
-     
