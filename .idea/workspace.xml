@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33781592-fe87-4fdb-b3ce-1b57c701a00f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/week_1/Calculator_class/descriptive.py" beforeDir="false" afterPath="$PROJECT_DIR$/week_1/Calculator_class/descriptive.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week_1/day_3_descriptive_statistics/Descriptive_Statistics-.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/week_1/day_3_descriptive_statistics/Descriptive_Statistics-.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week_1/day_4_oop/oop_2/OOP Practice 2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/week_1/day_4_oop/oop_2/OOP Practice 2.ipynb" afterDir="false" />
-    </list>
+    <list default="true" id="33781592-fe87-4fdb-b3ce-1b57c701a00f" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,9 +47,9 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="653" y="284" key="com.intellij.ide.util.TipDialog" timestamp="1578623050618">
+    <state x="653" y="284" key="com.intellij.ide.util.TipDialog" timestamp="1578680647171">
       <screen x="0" y="23" width="1440" height="816" />
     </state>
-    <state x="653" y="284" key="com.intellij.ide.util.TipDialog/0.23.1440.816@0.23.1440.816" timestamp="1578623050618" />
+    <state x="653" y="284" key="com.intellij.ide.util.TipDialog/0.23.1440.816@0.23.1440.816" timestamp="1578680647171" />
   </component>
 </project>
